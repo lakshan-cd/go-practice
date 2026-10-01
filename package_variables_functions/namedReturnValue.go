@@ -4,12 +4,13 @@ import "fmt"
 
 // /This function returns an integer, and I'll call that returned value result.
 
-func add(x , y int)(xVariable int,result int){
+// named addNamed because functions.go already has an add in this package
+func addNamed(x , y int)(xVariable int,result int){
 	xVariable = x
 	result = x + y
 	return
 }
 
-func main() {
-	fmt.Println(add(42, 13))
+func namedReturnValues() {
+	fmt.Println(addNamed(42, 13))
 }

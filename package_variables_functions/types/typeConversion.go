@@ -7,7 +7,7 @@ import (
 // /The expression T(v) converts the value v to the type T.
 
 
-func main() {
+func typeConversion() {
 	var i int = 42
 	var f float64 = float64(i)
 	var u uint = uint(f)

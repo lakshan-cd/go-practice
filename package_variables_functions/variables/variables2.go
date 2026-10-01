@@ -1,4 +1,4 @@
-package variables
+package main
 
 import "fmt"
 
@@ -6,7 +6,7 @@ import "fmt"
 
 var i, j int = 10 , 20 
 
-func main() {
+func inferredTypes() {
 	var c , python , java = true , false , "no!" //type is inferred from the value
 	fmt.Println(i, j, c, python, java)
 }

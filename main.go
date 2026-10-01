@@ -7,6 +7,19 @@ import (
 	"math/rand"
 )
 
-func main() {
+func packagesIntro() {
 	fmt.Println("My faviorite number is" , rand.Intn(10))
+}
+
+// Run everything in this folder with:
+//   go run .
+func main() {
+	fmt.Println("--- main.go: packages ---")
+	packagesIntro()
+
+	fmt.Println("--- imports.go: imports ---")
+	importsDemo()
+
+	fmt.Println("--- exportedNames.go: exported names ---")
+	exportedNamesDemo()
 }

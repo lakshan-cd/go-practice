@@ -22,6 +22,6 @@ import (
 
 //but this work
 
-func main() {
+func exportedNamesDemo() {
 	fmt.Println(math.Pi)
 }

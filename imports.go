@@ -9,6 +9,6 @@ import (
 // import "fmt"
 // import "math"
 
-func main() {
+func importsDemo() {
 	fmt.Printf("Now you have %g problems.\n",math.Sqrt(7))
 }

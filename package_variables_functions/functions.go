@@ -20,7 +20,7 @@ func retunAnyNuResult(x,y string) (string,string) {
 	return x,y
 }
 
-func main() {
+func functionBasics() {
 	fmt.Println(add(42, 13))
 	fmt.Println(addWithOnlyOneType(10, 13, "this is a string"))
 	fmt.Println(retunAnyNuResult("this is first string1", "this is second string2"))

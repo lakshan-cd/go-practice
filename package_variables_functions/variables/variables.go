@@ -1,4 +1,4 @@
-package variables
+package main
 
 import "fmt"
 
@@ -6,7 +6,7 @@ import "fmt"
 
 var c, python , java bool //all these are boolean
 
-func main() {
+func zeroValues() {
 	var i int //variables are automatically given a zero value when you declare them without assigning a value.
 	fmt.Println(i, c, python, java)
 }
